@@ -1,0 +1,144 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+.soc-icon {
+   height: 70px;
+    background: #06a4a4;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 5px;
+}
+.soc-icon__link {
+    background: #065c60;
+    width: 80px;
+    height: 5px;
+    margin-right: 20px;
+}
+.header {
+    background: #06a4a4;
+    color: #fffacb;
+}
+.header__top {
+    padding: 10px 0 20px;
+    background: silver;
+}
+.header__top_grid {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+.header__logo {
+    height: 50px;
+    width: 150px;
+    background: #065c60;
+    border-radius: 5px;
+}
+.nav__item {
+    display: inline-block;
+    margin-right: 15px;
+}
+.nav__item a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    transition: color .5s;
+}
+.nav__item a:hover {
+    color: white;
+}
+.header__main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+    padding: 100px 0;
+}
+.header__text {
+    width: 80%;
+    line-height: 25px;
+    text-align: center;
+}
+.header__main button {
+    margin-top: 10px;
+    background: #065c60;
+    width: 300px;
+    height: 45px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: color 1s;
+}
+.header__main button:hover {
+   background: #188534;
+}
+p {
+    color: black;
+}
+.products {
+    padding: 20px;
+}
+.products_grid {
+    border-radius: 50px;
+    border: 2px solid aqua;
+    padding: 20px;
+}
+.product__list {
+    display: flex;
+    column-gap: 25px;
+}
+.products__title {
+    text-align: center;
+    text-transform: uppercase;
+}
+.product__item {
+    flex-grow: 1;
+}
+.product__item_imag {
+
+    height: 200px;
+    background: #002323;
+    border-radius: 20px;
+}
+.about {
+    background: #0c0c3f;
+    padding: 50px 0;
+}
+.about__grid {
+    display: flex;
+    justify-content: space-between;
+}
+.about__card {
+    width: 30%;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    color: white;
+    transition: all .5s;
+    padding: 10px;
+    cursor: pointer;
+}
+.about__card:hover {
+    border-color: #06a4a4;
+}
+.about__photo > div {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: silver;
+}
+.about__description {
+    text-align: center;
+}
